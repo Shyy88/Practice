@@ -1,9 +1,31 @@
 function calculateAverage(data) {
   // Your code here
+  let result = 0;
+  let sum = 0;
+  for (let i = 0; i < data.length; i++) {
+    sum += data[i].height 
+    result = sum / data.length
+
+  }
+ return result
 }
 
 function plantGrouping(data) {
   // Your code here
+  if (data.length < 3) {
+    return 'data tidak lengkap'
+  }
+  if (!data) {
+    return 'Invalid input'
+  }
+  const result = {};
+  for (let i = 0; i < data.length; i++) {
+    if (!result[data[i].family]) {
+      result[data[i].family] 
+    }
+  }
+
+  result.averageHeight = calculateAverage(data);
 }
 
 let plantData = [
@@ -47,13 +69,13 @@ console.log(plantGrouping(plantData));
 }
 */
 
-console.log(plantGrouping([
-  { name: "Jeruk Bali", height: 2.4, age: 2, family: "Rutaceae" },
-  { name: "Pisang Susu", height: 1, age: 0.4, family: "Musaceae" }
-]));
+// console.log(plantGrouping([
+//   { name: "Jeruk Bali", height: 2.4, age: 2, family: "Rutaceae" },
+//   { name: "Pisang Susu", height: 1, age: 0.4, family: "Musaceae" }
+// ]));
 // data tidak lengkap
 
-console.log(plantGrouping());
+// console.log(plantGrouping());
 // invalid input
 
 module.exports = {

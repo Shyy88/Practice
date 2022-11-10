@@ -1,6 +1,17 @@
 function generateId(adventurer) {
   // Insert your code here
+  const age = adventurer.age
+  let length = adventurer.name.length
+  const first = adventurer.name[0]
+  const id = `${age}${length}${first}`
+  return id
 }
+const arthur = {
+  name: 'Arthur',
+  age: 28,
+  status: {attack: 890, defense: 700, agility: 800, magic: 870}
+}
+// console.log(generateId(arthur))
 
 function generateRankingAndSalary() {
   const players = [
@@ -18,14 +29,69 @@ function generateRankingAndSalary() {
     {name: 'Loren', age: 30, status: {defense: 516, agility: 961, attack: 977, magic: 300}, class: 'Assasin'}
   ]
   // Insert your code here
+  let result = [];
+  for (let i = 0; i < players.length; i++) {
+    let obj = {
+      id : generateId(players[i]),
+      name: players[i].name,
+      age: players[i].age,
+      class: players[i].class
+    }
+    let averageStatus = (players[i].status.attack + players[i].status.agility + players[i].status.defense + players[i].status.magic) / 4 
+    if (averageStatus > 800) {
+      obj.rank = 'A'
+      obj.salary = 42000
+    } else if (averageStatus >= 650 && averageStatus <= 800) {
+      obj.rank = 'B'
+      obj.salary = 20000
+    } else {
+      obj.rank = 'C'
+      obj.salary = 9000
+    }
+    result.push(obj);
+  }
+  return result
 }
+// console.log(generateRankingAndSalary())
 
 function fulfillClientRequest(request) {
   // Insert your code here
+let result = [];
+const player = generateRankingAndSalary()
+for (let i = 0; i < request.length; i++) {
+  for (let j = 0; j < player.length; j++) {
+    if (request[i][0] === player[j].class && request[i][1] === player[j].rank) {
+      let obj = {
+        id: player[j].id,
+        name: player[j].name,
+        age: player[j].age,
+        class: player[j].class,
+        rank: player[j].rank,
+        salary: player[j].salary
+      }
+      result.push(obj);
+    }
+  }
 }
+return result
+}
+const request = [
+  ['Swordman', 'A'],
+  ['Mage', 'B'],
+  ['Tank', 'C']
+]
+// console.log(fulfillClientRequest(request))
 
 function adventurerInvoice(client) {
   // Insert your code here
+  const obj = {
+    name: client.name,
+    player: fulfillClientRequest(client.adventureRequests)
+  };
+  for (let i = 0; i < obj.player.length; i++) {
+    obj.totalSalary += Number(obj.player[i].salary)
+  } 
+  return obj
 }
 
 const hiruma = {
@@ -90,7 +156,7 @@ const sena = {
   ]
 }
 
-console.log(adventurerInvoice(sena))
+// console.log(adventurerInvoice(sena))
 /**
  * {
   name: 'sena',
@@ -132,7 +198,7 @@ const kurita = {
   ]
 }
 
-console.log(adventurerInvoice(kurita))
+// console.log(adventurerInvoice(kurita))
 
 /**
  * {
@@ -194,9 +260,9 @@ const shin = {
 }
  */
 
-console.log(adventurerInvoice(shin))
+// console.log(adventurerInvoice(shin))
 
-console.log(adventurerInvoice()) // Tidak ada client yang dikirimkan
+// console.log(adventurerInvoice()) // Tidak ada client yang dikirimkan
 
 module.exports = {
   generateId,
