@@ -84,12 +84,17 @@ const request = [
 
 function adventurerInvoice(client) {
   // Insert your code here
+  if (!client) {
+    return 'Tidak ada client yang dikirimkan'
+  };
   const obj = {
     name: client.name,
-    player: fulfillClientRequest(client.adventureRequests)
+    players: fulfillClientRequest(client.adventureRequests)
   };
-  for (let i = 0; i < obj.player.length; i++) {
-    obj.totalSalary += Number(obj.player[i].salary)
+  let salary = 0;
+  for (let i = 0; i < obj.players.length; i++) {
+    salary += obj.players[i].salary
+    obj.totalSalary = salary
   } 
   return obj
 }
@@ -156,7 +161,7 @@ const sena = {
   ]
 }
 
-// console.log(adventurerInvoice(sena))
+console.log(adventurerInvoice(sena))
 /**
  * {
   name: 'sena',
@@ -198,7 +203,7 @@ const kurita = {
   ]
 }
 
-// console.log(adventurerInvoice(kurita))
+console.log(adventurerInvoice(kurita))
 
 /**
  * {
@@ -260,9 +265,9 @@ const shin = {
 }
  */
 
-// console.log(adventurerInvoice(shin))
+console.log(adventurerInvoice(shin))
 
-// console.log(adventurerInvoice()) // Tidak ada client yang dikirimkan
+console.log(adventurerInvoice()) // Tidak ada client yang dikirimkan
 
 module.exports = {
   generateId,
