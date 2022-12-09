@@ -12,3 +12,8 @@ Exercises for a basic javascript program.
 8. [Sitting Arrangement](https://github.com/Shyy88/Practice/blob/main/latihan/12.js)
 9. [Fill](https://github.com/Shyy88/Practice/blob/main/latihan/13.js)
 10. [Deret Geometri](https://github.com/Shyy88/Practice/blob/main/latihan/14.js)
+11. [Mengelompokkan Angka](https://github.com/Shyy88/Practice/blob/main/latihan/15.js)
+12. [Attacking](https://github.com/Shyy88/Practice/blob/main/latihan/16.js)
+13. [Target Terdekat](https://github.com/Shyy88/Practice/blob/main/latihan/17.js)
+14. [StartUp Competition](https://github.com/Shyy88/Practice/blob/main/latihan/18.js)
+15. [Tukar Besar Kecil](https://github.com/Shyy88/Practice/blob/main/latihan/19.js)
