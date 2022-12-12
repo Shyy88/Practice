@@ -17,3 +17,8 @@ Exercises for a basic javascript program.
 13. [Target Terdekat](https://github.com/Shyy88/Practice/blob/main/latihan/17.js)
 14. [StartUp Competition](https://github.com/Shyy88/Practice/blob/main/latihan/18.js)
 15. [Tukar Besar Kecil](https://github.com/Shyy88/Practice/blob/main/latihan/19.js)
+16. [Deep Sum](https://github.com/Shyy88/Practice/blob/main/latihan/20.js)
+17. [Melee Range Grouping](https://github.com/Shyy88/Practice/blob/main/latihan/21.js)
+18. [Urutkan Abjad](https://github.com/Shyy88/Practice/blob/main/latihan/22.js)
+19. [Sorting](https://github.com/Shyy88/Practice/blob/main/latihan/23.js)
+20. [Most Frequent Largest Numbers](https://github.com/Shyy88/Practice/blob/main/latihan/24.js)
