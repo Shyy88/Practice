@@ -1,5 +1,5 @@
 # Practice
-Exercises for a basic javascript program.
+> Exercises for a basic javascript program.
 
 ## Section 
 1. [Makan Skuy](https://github.com/Shyy88/Practice/blob/main/latihan/1.js)
