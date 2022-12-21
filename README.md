@@ -22,3 +22,8 @@
 18. [Urutkan Abjad](https://github.com/Shyy88/Practice/blob/main/latihan/22.js)
 19. [Sorting](https://github.com/Shyy88/Practice/blob/main/latihan/23.js)
 20. [Most Frequent Largest Numbers](https://github.com/Shyy88/Practice/blob/main/latihan/24.js)
+21. [Change Me](https://github.com/Shyy88/Practice/blob/main/latihan/25.js)
+22. [Count Me](https://github.com/Shyy88/Practice/blob/main/latihan/26.js)
+23. [Convert Symbol](https://github.com/Shyy88/Practice/blob/main/latihan/27.js)
+24. [Shopping](https://github.com/Shyy88/Practice/blob/main/latihan/28.js)
+25. [Graduates](https://github.com/Shyy88/Practice/blob/main/latihan/30.js)
