@@ -27,3 +27,7 @@
 23. [Convert Symbol](https://github.com/Shyy88/Practice/blob/main/latihan/27.js)
 24. [Shopping](https://github.com/Shyy88/Practice/blob/main/latihan/28.js)
 25. [Graduates](https://github.com/Shyy88/Practice/blob/main/latihan/30.js)
+26. [Cari Modus](https://github.com/Shyy88/Practice/blob/main/latihan/31.js)
+27. [Angka Prima](https://github.com/Shyy88/Practice/blob/main/latihan/31.js)
+28. [Multiplication Table](https://github.com/Shyy88/Practice/blob/main/latihan/32.js)
+29. [Income Statement](https://github.com/Shyy88/Practice/blob/main/latihan/33.js)
