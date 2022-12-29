@@ -31,3 +31,6 @@
 27. [Angka Prima](https://github.com/Shyy88/Practice/blob/main/latihan/31.js)
 28. [Multiplication Table](https://github.com/Shyy88/Practice/blob/main/latihan/32.js)
 29. [Income Statement](https://github.com/Shyy88/Practice/blob/main/latihan/33.js)
+## Live-Practice
+### Live-2
+### Live-3
