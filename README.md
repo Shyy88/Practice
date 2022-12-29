@@ -33,4 +33,7 @@
 29. [Income Statement](https://github.com/Shyy88/Practice/blob/main/latihan/33.js)
 ## Live-Practice
 ### Live-2
+1. [Get StartUp](https://github.com/Shyy88/Practice/blob/main/latihan/live-practice/live-2/1.js)
+2. [Filter Recipes](https://github.com/Shyy88/Practice/blob/main/latihan/live-practice/live-2/2.js)
+3. [GameZone](https://github.com/Shyy88/Practice/blob/main/latihan/live-practice/live-2/3.js)
 ### Live-3
