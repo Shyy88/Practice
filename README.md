@@ -35,5 +35,5 @@
 ### Live-2
 1. [Get StartUp](https://github.com/Shyy88/Practice/blob/main/latihan/live-practice/live-2/1.js)
 2. [Filter Recipes](https://github.com/Shyy88/Practice/blob/main/latihan/live-practice/live-2/2.js)
-3. [GameZone](https://github.com/Shyy88/Practice/blob/main/latihan/live-practice/live-2/3.js)
+3. [Game Zone](https://github.com/Shyy88/Practice/blob/main/latihan/live-practice/live-2/3.js)
 
